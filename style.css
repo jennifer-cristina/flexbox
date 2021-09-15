@@ -12,7 +12,7 @@ body {
 .container-items{
     width: 1080px;
     min-height: 200px;
-    background-color: #94c8d6;
+    /* background-color: #94c8d6; */
     border: 20px solid tomato;
     display: flex;
     gap: 10px;
@@ -122,5 +122,6 @@ body {
 
 .exer13 :nth-child(odd){
     background-color: lightcoral;
-    width: 88.8%;
+    flex-grow: 1;
+    width: 50%;
 }
